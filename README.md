@@ -20,13 +20,16 @@ The text persists in RAM for as long as the app is running. However, if the rand
 The quickstart command will stop the app once you log out. To avoid that, use the command: nohup uvicorn main:app --host 0.0.0.0 --port 2345 > output.log 2>&1 &
 
 ## FAQ
-**Why does this exist?**
+- **Why does this exist?**
 I was using my phone, my friend was using their computer, and we had no easy way to share links. By making the URL two fruits, we could easily share the URL just by saying it out loud without sending a string of random characters like the real pastebin does.
-**Really you had no easy way to do this?  What about all the other pastebin apps out there like...**
+
+- **Really you had no easy way to do this?  What about all the other pastebin apps out there like...**
 I like making my own stuff and hosting my own stuff.
-**Is this secure?**
+
+- **Is this secure?**
 I doubt it. Like, it's about 100 lines of code. I'm sure it can be broken to pieces.
-**Will this run on...**
+- **Will this run on...**
 Probably. I'll bet you can get it running on the last dregs of toothpaste in the tube it's so lightweight. If it can serve FastAPI apps, it can serve this.
-**I want a new feature. Can you add...**
+
+- **I want a new feature. Can you add...**
 No. But feel free to change it yourself.
