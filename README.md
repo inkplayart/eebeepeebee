@@ -12,7 +12,7 @@ An extremely minimal self-hosted pastebin for a small number of users, tested on
 Change the port if you want, it really doesn't matter
 
 ## How does it work?
-Navigate to http://<your_server_ip>:<whichever_port_you_chose> on your favorite web browser. It will open up the text box. Put text in that and hit "Generate URL". It will create a random URL made up of two fruits. Go to http://<your_server_ip>:<whichever_port_you_chose>/<fruit1>-<fruit2> to see the text. That's it.
+Navigate to http://<your_server_ip>:<whichever_port_you_chose> on your favorite web browser. It will open up the text box. Put text in that and hit "Generate URL". It will create a random URL made up of two fruits. Go to http://<your_server_ip>:<whichever_port_you_chose>/fruit1-fruit2 to see the text. That's it.
 
 The text persists in RAM for as long as the app is running. However, if the random generator creates the same URL it will overwrite what's already there. Therefore, don't rely on this to store text forever. That's not the purpose at all.
 
