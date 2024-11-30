@@ -1,0 +1,5 @@
+services:
+  eebeepeebee:
+    build: .
+    ports:
+      - "2345:2345"
